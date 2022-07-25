@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .spacing {
+            margin-bottom: 12px;
+            margin-left: 60px;
+        }
+
+        .button{
+            margin-left: 15%;
+            color: white;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Form</h1>
+    <form action="">
+        <!-- Nama -->
+        <label for="nama">Nama : </label>
+        <input type="text" class="spacing"><br>
+
+        <!-- Umur -->
+        <label for="nama">Umur : </label>
+        <input type="text" class="spacing"><br>
+
+        <!-- Jenis Kelamin -->
+        <div style="margin-bottom: 12px;">
+            <label for="nama">Jenis Kelamin : </label>
+            <input type="radio" name="jenis_kelamin" id="jenis_kelamin" value="Pria"><label for="pria">Pria</label>
+            <input type="radio" name="jenis_kelamin" id="jenis_kelamin" value="Wanita"><label for="wanita">Wanita</label><br>
+        </div>
+        
+        <!-- Alamat -->
+        <label for="nama">Alamat : </label><br> 
+        <textarea name="alamat" id="alamat" cols="19" rows="5" style="margin: -20px 0 0 110px;">masukan alamat anda</textarea><br>
+
+        <!-- Button -->
+        <input type="submit" value="Simpan" class="button" style="margin-top: 14px;">
+    </form>
+</body>
+</html>
